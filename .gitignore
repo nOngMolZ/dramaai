@@ -1,0 +1,18 @@
+node_modules/
+dist/
+_trash/
+.DS_Store
+npm-debug.log*
+*.log
+.env
+.env.*
+
+# FB token/pageId ต่อเพจ — ห้ามเข้า git (ดู docs/rework-plan.md เฟส 4)
+*.config.local.json
+
+# ไฟล์รูปภาพ — ไม่ track เข้า git เพราะ repo หนักเกิน (เก็บไว้ในเครื่องเท่านั้น)
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
